@@ -1,0 +1,54 @@
+.table-data{
+    .my-style-btn{
+        margin-bottom: 2rem;
+    }
+    min-height: 91vh;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding-top: 2rem;
+     
+ .table-style{
+  border-radius: 15px;
+ overflow: hidden;
+ .title-head-table{
+  font-size: 0.8rem ; 
+ }
+ .data-table-purchase{
+  font-size: 0.9rem ; 
+  .icon-purchase{
+    margin: 0px 8px;
+    font-size: 1.5rem;
+  }
+  .delete{
+    color: white;
+    cursor: pointer;
+    transition: 200ms all ease-in;
+    &:hover{
+      color: #ba0000;
+    }
+  }
+  .edit{
+    color: white;
+    cursor: pointer;
+    transition: 200ms all ease-in;
+    &:hover{
+      color: #ffd504;
+    }
+  }
+  .view{
+    color: white;
+    cursor: pointer;
+    transition: 200ms all ease-in;
+    &:hover{
+      color: #00b3ff;
+    }
+  }
+ }
+ .data-table-purchase-no{
+  font-size: 0.9rem ; 
+  font-weight: 500;
+ }
+ }
+    }
